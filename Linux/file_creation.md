@@ -139,3 +139,108 @@ vi myfile.txt
 3. `ESC` চাপুন
 4. `:wq` লিখে Enter চাপুন
 
+
+
+# AlmaLinux এ Nano Editor দিয়ে File Edit করার বাংলা টিউটোরিয়াল
+
+## ১) নতুন File তৈরি করা
+
+টার্মিনালে নিচের command লিখুন:
+
+```bash
+touch myfile.txt
+```
+
+এতে `myfile.txt` নামে একটি file তৈরি হবে।
+
+---
+
+# ২) Nano Editor দিয়ে File Open করা
+
+নিচের command লিখুন:
+
+```bash
+nano myfile.txt
+```
+
+এখন file টি `nano editor` এ open হবে।
+
+---
+
+# ৩) লেখা Edit করা
+
+Nano editor open হওয়ার পরে সরাসরি keyboard থেকে লেখা লিখুন।
+
+উদাহরণ:
+
+```text
+Hello World
+Welcome to AlmaLinux
+```
+
+---
+
+# ৪) File Save করা
+
+Keyboard থেকে চাপুন:
+
+```text
+CTRL + O
+```
+
+তারপর Enter চাপুন।
+
+এতে file save হবে।
+
+---
+
+# ৫) Nano Editor থেকে Exit করা
+
+Keyboard থেকে চাপুন:
+
+```text
+CTRL + X
+```
+
+এতে nano editor বন্ধ হবে।
+
+---
+
+# ৬) File এর Content দেখা
+
+টার্মিনালে লিখুন:
+
+```bash
+cat myfile.txt
+```
+
+---
+
+# গুরুত্বপূর্ণ Nano Shortcut
+
+| Shortcut | কাজ |
+|---|---|
+| CTRL + O | File Save |
+| CTRL + X | Exit |
+| CTRL + K | Line Cut |
+| CTRL + U | Paste |
+| CTRL + W | Search |
+
+---
+
+# Complete Example
+
+```bash
+touch myfile.txt
+nano myfile.txt
+```
+
+তারপর:
+
+1. লেখা লিখুন
+2. `CTRL + O` চাপুন
+3. Enter চাপুন
+4. `CTRL + X` চাপুন
+
+
+
